@@ -1,0 +1,45 @@
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.emphasizedText{
+    font-style: italic;
+    color: #003DA5;
+}
+
+body{
+    background-color: lightgray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 5px solid black;
+    margin:50px;
+    padding: 30px;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.header{
+    height: 100px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+}
+
+.footer{
+    height: 25px;
+    font-size: 10px;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    right: 5px;
+    left:5px;
+    position: fixed;
+}
